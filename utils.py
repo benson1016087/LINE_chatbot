@@ -9,7 +9,7 @@ def get_default_msg():
  * contact: The ways to contact me. 
  * award, honor: Display the selected honors and awards
     
-E.g. Enter 'cmlab' or 'lab' can get the information of my lab works.'''
+E.g. Enter 'cmlab' or 'lab' to get the information of my lab works.'''
     
     return text
 

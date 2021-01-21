@@ -77,3 +77,5 @@ def get_award_msg():
 
 * Presidential Award
   - In second semester of academic year 2019-2020.'''
+
+  return text

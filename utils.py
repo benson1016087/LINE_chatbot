@@ -1,6 +1,6 @@
 
 def get_default_msg():
-    text = '''Hi! You can enter the keywords to acquire some informations about me:
+    text = '''Hi! You can enter the following keywords to acquire some informations about me:
 
  * education, background: My education background.
  * cmlab, lab: Information about the lab I'm currently in.

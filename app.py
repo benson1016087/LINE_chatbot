@@ -10,13 +10,13 @@ from linebot.exceptions import (
 from linebot.models import *
 
 import utils 
-
+from config import TOKEN, SECRET
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('HjUTyBJ/6WBryuO858YF4Hv4NN9sMx3Hxu2U+BWdumxgQ0gdHhmVrIGAMx4h1+ybk9eofGf5fuF5qhOhLklgLRg3x9xYAjQn/0FDw5j355tv+ESofI5CI1fcKqe+hcACN9fPM6f6fAIwFcwdwrL1vgdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi(TOKEN)
 # Channel Secret
-handler = WebhookHandler('0dcfb97e623da9942a3acb6b86e0e9a1')
+handler = WebhookHandler(SECRET)
 
 
 @app.route("/callback", methods=['POST'])
